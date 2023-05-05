@@ -1,65 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
-} 
-
-body{
-    background-image: url(https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900);
-    background-size: cover;  
-    width: 100vw; 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-}
-.header{
-    background-color: rgb(127, 6, 240);
-    height: 8vh;
-    font-size: 24px;
-    box-shadow: 28px 6px 151px 41px rgba(0,0,0,0.68);
-}
-.main{
-    /* border: 1px solid white; */
-    height: 77vh;
-    /* font-size: 200px; */
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    /* flex-direction: column; */
-}
-.footer{
-    background-color: rgb(46, 45, 45);
-    height: 15vh;
-    color: white;
-    font-size: 24px;
-    box-shadow: 1px 3px 76px 0px rgba(0,0,0,0.75);
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.imagem{
-    height: 200px;
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.container{
-    display: flex;
-    flex-direction: row;
+
+.main {
+  height: 77vh;
+  display: flex;
+  justify-content: center;
 }
-#carouselExampleCaptions{
-    width: 500px;
+
+.imagem {
+  height: 200px;
 }
-img{
-    margin-top: 20px;
-    border-radius: 10%;
-    
-    
+.container {
+  display: flex;
+  flex-direction: row;
+}
+#carouselExampleCaptions {
+  margin-bottom: 40px;
+  margin-top: 110px;
+  width: 450px;
+}
+img {
+  margin-top: 20px;
+  border-radius: 10%;
 }
 .carousel-caption {
-    
-    backdrop-filter: brightness(50%);;
+  backdrop-filter: brightness(50%);
 }
-p{
-    color: white;
-    
+p {
+  color: white;
 }
-h5{
-    color: white;
+h5 {
+  color: white;
+}
+
+
+
+
+
+
+
+
+.carousel-control-prev {
+  align-items: flex-end;
+}
+
+.carousel-control-next {
+  align-items: flex-end;
+}
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  margin-left: 730px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: x-large;
+  font-style: italic;
+  font-family: Chalkduster, fantasy;
+  color: white;
+}
+#nav {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: rgba(46, 45, 45, 0.582);
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#imgfooter {
+  margin-top: 0;
+  width: 5vw;
+  height: 5vh;
+}
+.logo-container {
+  margin-right: 620px;
+  margin-left: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: #9493d1;
 }

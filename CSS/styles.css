@@ -43,14 +43,6 @@ p {
 h5 {
   color: white;
 }
-
-
-
-
-
-
-
-
 .carousel-control-prev {
   align-items: flex-end;
 }
@@ -62,7 +54,6 @@ h5 {
   color: white;
 }
 .navbar-brand {
-  margin-left: 730px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -87,7 +78,7 @@ footer {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -98,7 +89,7 @@ footer {
   height: 5vh;
 }
 .logo-container {
-  margin-right: 620px;
+  margin-right: 10px;
   margin-left: 5px;
 }
 
@@ -126,4 +117,8 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #9493d1;
+}
+
+.navbar > .container-fluid {
+  justify-content: flex-end;
 }

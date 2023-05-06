@@ -22,24 +22,12 @@ body {
   display: flex;
   margin-bottom: 25px;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-}
 #carouselExampleCaptions {
   margin-bottom: 40px;
   margin-top: 110px;
   width: 450px;
 }
-#imgfooter {
-  width: 5vw;
-  height: 5vh;
-}
-
 p {
-  color: white;
-}
-h5 {
   color: white;
 }
 .carousel-control-prev {
@@ -57,6 +45,8 @@ h5 {
   flex-direction: column;
   align-content: center;
 }
+
+/* NAVBAR */
 .nav-link {
   color: white;
 }
@@ -75,6 +65,9 @@ h5 {
   margin-bottom: 5px;
 }
 
+
+/* FOOTER */
+
 footer {
   width: 100%;
   background-color: rgba(46, 45, 45, 0.582);
@@ -87,6 +80,11 @@ footer {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#imgfooter {
+  width: 5vw;
+  height: 5vh;
 }
 
 .logo-container {

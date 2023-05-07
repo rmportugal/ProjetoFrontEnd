@@ -7,46 +7,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.main {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-#imgmain {
-  margin-bottom: 40px;
-  border-radius: 10%;
-}
-.carousel-caption {
-  width: 315px;
-  height: 160px;
-  display: flex;
-  margin-bottom: 25px;
-}
-#carouselExampleCaptions {
-  margin-bottom: 40px;
-  margin-top: 110px;
-  width: 450px;
-}
-p {
-  color: white;
-}
-.carousel-control-prev {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-}
-
-.carousel-control-next {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-}
-
-/* NAVBAR */
 .nav-link {
   color: white;
 }
@@ -170,4 +130,38 @@ input:checked + .slider:before {
   border-radius: 50%;
   background-size: cover;
   background-color: #777777;
+}
+p {
+  font-family: Chalkduster, fantasy;
+  font-size: 40px;
+  color: white;
+}
+form {
+  color: white;
+}
+.fc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mensagem {
+  border-radius: 10px;
+  width: 500px;
+}
+#email {
+  border-radius: 5px;
+  width: 400px;
+}
+#nome {
+  border-radius: 5px;
+  text-align: start;
+  width: 300px;
+}
+.botao-enviar {
+  background-color: rgb(153, 75, 220);
+  margin-top: 20px;
+}
+.required:after {
+  content: " *";
+  color: red;
 }

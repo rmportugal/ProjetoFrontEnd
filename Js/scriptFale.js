@@ -42,16 +42,18 @@ const slider = document.querySelector("#botao");
 const titulo = document.querySelector("#titulo");
 const paragrafo = document.querySelectorAll("p");
 const subtitulo = document.querySelectorAll("h2");
+const body = document.body;
 
 slider.onclick = function (event) {
-  if (event.target.checked){
-    document.body.style.background = "white";
+  if (event.target.checked) {
+    body.style.backgroundImage = "none";
+    body.style.backgroundColor = "white";
     titulo.style.color = "black";
     paragrafo.forEach(i => i.style.color = "black"); 
     subtitulo.forEach(i => i.style.color = "black");
-  }              
-  else{
-    document.body.style.backgroundImage = "url('https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900')";
+  } else {
+    body.style.backgroundImage = "url('https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900')";
+    body.style.backgroundColor = "transparent";
     titulo.style.color = "white";
     paragrafo.forEach(i => i.style.color = "white"); 
     subtitulo.forEach(i => i.style.color = "white");    

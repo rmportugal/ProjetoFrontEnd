@@ -16,5 +16,7 @@ Fale Conosco: página com um formulário de contato para que os usuários possam
 
 ## Autores
 Rainan Portugal - @rmportugal
+
 Gabriel Nogueira - @gabrielsn17
+
 João Ferreira - @joaovictor190

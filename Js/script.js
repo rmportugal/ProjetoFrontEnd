@@ -2,7 +2,6 @@ const slider = document.querySelector("#botao");
 const titulo = document.querySelector("#titulo");
 const paragrafo = document.querySelectorAll("p");
 const subtitulo = document.querySelectorAll("h2");
-const subtitulos = document.querySelectorAll("h5");
 
 slider.onclick = function (event) {
   if (event.target.checked){
@@ -10,14 +9,11 @@ slider.onclick = function (event) {
     titulo.style.color = "black";
     paragrafo.forEach(i => i.style.color = "black"); 
     subtitulo.forEach(i => i.style.color = "black");
-    subtitulos.forEach(i => i.style.color = "black");
-    
   }              
   else{
     document.body.style.background = "#2f3238"; 
     titulo.style.color = "white";
     paragrafo.forEach(i => i.style.color = "white"); 
-    subtitulo.forEach(i => i.style.color = "white");
-    subtitulos.forEach(i => i.style.color = "white");    
+    subtitulo.forEach(i => i.style.color = "white");    
   } 
 }

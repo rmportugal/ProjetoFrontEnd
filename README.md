@@ -1,6 +1,7 @@
 # DevZone
 
 Este programa foi desenvolvido como parte de um projeto para a disciplina de FrontEnd essencial.
+
 Este é um site voltado para iniciantes em programação que tem como objetivo compartilhar dicas e conhecimentos para auxiliar no aprendizado e desenvolvimento de projetos.
 
 ## Páginas

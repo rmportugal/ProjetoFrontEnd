@@ -2,6 +2,7 @@ const slider = document.querySelector("#botao");
 const titulo = document.querySelector("#titulo");
 const paragrafo = document.querySelectorAll("p");
 const subtitulo = document.querySelectorAll("h2");
+const iconn = document.querySelector(".carousel-control-next-icon");
 
 slider.onclick = function (event) {
   if (event.target.checked){

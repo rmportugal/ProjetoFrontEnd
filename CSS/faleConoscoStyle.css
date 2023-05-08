@@ -3,6 +3,7 @@
   margin: 0;
 }
 body {
+  width: 100%;
   background: no-repeat;
   background-image: url(https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900);
   background-size: cover;
@@ -148,9 +149,11 @@ form {
   font-weight: 600;
 }
 .fc {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 #mensagem {
   border-radius: 10px;
@@ -173,7 +176,7 @@ form {
   content: " *";
   color: red;
 }
-h6{
+h6 {
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   width: 360px;
   display: flex;

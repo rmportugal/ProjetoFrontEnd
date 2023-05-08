@@ -1,4 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
+  background: no-repeat;
   background-image: url(https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900);
   background-size: cover;
   width: 100vw;
@@ -132,12 +137,15 @@ input:checked + .slider:before {
   background-color: #777777;
 }
 p {
-  font-family: Chalkduster, fantasy;
-  font-size: 40px;
-  color: white;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 50px;
+  color: black;
+  margin: 0;
 }
 form {
-  color: white;
+  font-size: medium;
+  color: black;
+  font-weight: 600;
 }
 .fc {
   display: flex;
@@ -146,7 +154,7 @@ form {
 }
 #mensagem {
   border-radius: 10px;
-  width: 500px;
+  width: 400px;
 }
 #email {
   border-radius: 5px;
@@ -155,7 +163,7 @@ form {
 #nome {
   border-radius: 5px;
   text-align: start;
-  width: 300px;
+  width: 400px;
 }
 .botao-enviar {
   background-color: rgb(153, 75, 220);
@@ -164,4 +172,14 @@ form {
 .required:after {
   content: " *";
   color: red;
+}
+h6{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  width: 360px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: x-large;
+  font-weight: 400;
 }

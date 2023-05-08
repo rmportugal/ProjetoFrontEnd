@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/design-de-plano-de-fundo-gradiente-abstrato_509471-38.jpg?w=900);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  #imgmain {
+    margin-bottom: 40px;
+    border-radius: 10%;
+  }
+  .carousel-caption {
+    width: 315px;
+    height: 160px;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  #carouselExampleCaptions {
+    margin-bottom: 40px;
+    margin-top: 110px;
+    width: 450px;
+  }
+  p {
+    color: white;
+  }
+  .carousel-control-prev {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .carousel-control-next {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  /* NAVBAR */
+  .nav-link {
+    color: white;
+  }
+  .navbar-brand {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+    font-family: Chalkduster, fantasy;
+    color: white;
+  }
+  #nav {
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  
+  /* FOOTER */
+  
+  footer {
+    width: 100%;
+    background-color: rgba(46, 45, 45, 0.582);
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #imgfooter {
+    width: 5vw;
+    height: 5vh;
+  }
+  
+  .logo-container {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #9493d1;
+  }
